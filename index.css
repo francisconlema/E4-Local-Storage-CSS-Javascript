@@ -1,0 +1,90 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    background-image: url("/Imagenes/fondopizza.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+
+#contenedorPizza {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    border-style: solid;
+    border-width: 1px;
+   
+    border-color: black;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    background: rgba( 255, 5, 5, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+}
+
+#imgPizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 200px;
+    height: 100px;
+   margin: 30px;
+
+}
+
+
+img {
+ width: 100%;
+ border-radius: 10px;
+
+}
+
+#verPizza {
+    margin: 10px;
+    background-color: rgb(236, 42, 42);
+    padding: 5px 25px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray;
+    cursor: pointer;
+    
+
+    background: rgba( 255, 5, 5, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+}
+
+#verPizza:hover {
+    background: rgb(171,0,0);
+    background: linear-gradient(180deg, rgba(171,0,0,1) 0%, rgba(249,0,0,1) 87%, rgba(255,255,255,1) 100%);
+}
+
+
+h2 {
+    margin: 10px;
+    color: white;
+    font-size: 2em;
+}
+
+h4 {
+    margin: 5px;
+}
+
+input {
+    opacity: 80%;
+}
